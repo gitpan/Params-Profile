@@ -1,0 +1,15 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Params-Profile
+version:      0.10
+version_from: lib/Params/Profile.pm
+installdirs:  site
+requires:
+    Catalyst:                      5.66
+    Class::Data::Inheritable:      0.04
+    Data::FormValidator:           4
+    Params::Check:                 0.23
+    Test::More:                    0.62
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30
