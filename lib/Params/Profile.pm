@@ -7,7 +7,7 @@ use Params::Profile::Params_Check;
 
 use base qw/Class::Data::Inheritable/;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 use constant NO_ARGS => {};
 use constant NO_PROFILE => undef;

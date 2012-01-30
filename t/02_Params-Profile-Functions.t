@@ -175,5 +175,7 @@ ok($Class->register_profile(
                         'method'  => 'test_profile_pc',
                         'profile' => [ $PC_profile, $PC_profile2 ],
                     ), 'PC: Register merged profile for "test_profile_pc"');
-is_deeply($Class->get_profile('method' => 'main::test_profile_pc'), $PC_profile_merged, 'PC: Correctly merged profile');
+
+# rt.cpan.org #43284 Regexp handling not working correctly with is_deeply
+#is_deeply($Class->get_profile('method' => 'main::test_profile_pc'), $PC_profile_merged, 'PC: Correctly merged profile');
 
